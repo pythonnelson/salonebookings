@@ -1,0 +1,129 @@
+.header {
+    /* background-color: #244062; */
+    background-color: #ECF0F3;
+    color: #244062;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.headerContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+}
+
+.headerList {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.headerListItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerListItem.active {
+    border: 1px solid #244062;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.headerDesc {
+    margin: 20px 0px;
+}
+
+.headerButton {
+    background-color: #244062;
+    color: whitesmoke;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* =====================================
+HEADER SEARCH
+====================================== */
+.headerSearch {
+    height: 30px;
+    background-color: white;
+    border: 3px solid #244062;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.headerIcon {
+    color: lightgray;
+}
+
+.headerSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchInput {
+    border: none;
+    outline: none;
+}
+
+.headerSearchText {
+    color: lightgray;
+    cursor: pointer;
+}
+
+/* =========== Date Picker ========= */
+.date {
+    position: absolute;
+    top: 50px;
+}
+
+/* ================= Options Adult, Children and Room Picker ============ */
+.options {
+    position: absolute;
+    top: 50px;
+    color: gray;
+    background-color: white;
+    border-radius: 5px;
+    --webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4); 
+}
+
+.optionItem {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.optionContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+}
+
+.optionCounterButton {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #244062;
+    color: #244062;
+    background-color: white;
+    cursor: pointer;
+}
+
+.optionCounterButton:disabled {
+    background-color: lightgray;
+    cursor: default;
+}
