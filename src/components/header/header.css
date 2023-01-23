@@ -13,6 +13,10 @@
     margin: 20px 0px 100px 0px;
 }
 
+.headerContainer.listMode {
+    margin: 20px 0px 0px 0px;
+}
+
 .headerList {
     display: flex;
     gap: 40px;
@@ -86,6 +90,7 @@ HEADER SEARCH
 .date {
     position: absolute;
     top: 50px;
+    z-index: 2;
 }
 
 /* ================= Options Adult, Children and Room Picker ============ */
@@ -97,6 +102,7 @@ HEADER SEARCH
     border-radius: 5px;
     --webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.7);
     box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4); 
+    z-index: 2;
 }
 
 .optionItem {
