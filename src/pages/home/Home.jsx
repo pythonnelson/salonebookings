@@ -5,6 +5,7 @@ import PropertyList from "../../components/propertyList/PropertyList"
 import "./home.css"
 import FeaturedProperties from "../../components/featuredProperties/FeaturedProperties"
 import MailList from "../../components/mailList/MailList"
+import Footer from "../../components/footer/Footer"
 
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
         <h1 className="homeTitle">Comfort from home</h1>
         <FeaturedProperties />
         <MailList />
+        <Footer />
       </div>
       <br /><br /><br /><br />
       {/* ======== Home Container // =========== */}
