@@ -4,6 +4,7 @@ import Header from "../../components/header/Header"
 import PropertyList from "../../components/propertyList/PropertyList"
 import "./home.css"
 import FeaturedProperties from "../../components/featuredProperties/FeaturedProperties"
+import MailList from "../../components/mailList/MailList"
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
         <PropertyList />
         <h1 className="homeTitle">Comfort from home</h1>
         <FeaturedProperties />
+        <MailList />
       </div>
       <br /><br /><br /><br />
       {/* ======== Home Container // =========== */}
