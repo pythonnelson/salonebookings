@@ -18,6 +18,7 @@
     border-radius: 10px;
     position: sticky;
     top: 10px;
+    height: max-content;
 }
 
 .listTitle {
@@ -62,6 +63,8 @@
 
 .OptionSearchTitle {
     margin-top: 15px !important;
+    color: whitesmoke;
+    margin-bottom: 30px !important;
 }
 
 .listSearchOptionItem{
