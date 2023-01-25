@@ -45,7 +45,9 @@ const Footer = () => {
                 <li className="footerListItem">Hotels</li>
             </ul>
         </div>
-        &copy; {new Date().getFullYear()} Alright reserved <a className="footerLink" href="http://simplicode.netlify.app" target="_blank" rel="noopener noreferrer">simplicode.netlify.app</a>
+        <p style={{ marginBottom: "20px" }}>
+            &copy; {new Date().getFullYear()} Alright reserved <a className="footerLink" href="http://simplicode.netlify.app" target="_blank" rel="noopener noreferrer">simplicode.netlify.app</a>
+        </p>
     </div>
   )
 }
