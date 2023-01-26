@@ -50,6 +50,7 @@
 .hotelImage {
     width: 100%;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .hotelImages {
@@ -120,4 +121,47 @@
     font-weight: 500;
     cursor: pointer;
     border-radius: 5px;
+}
+
+/* =============== SLIDER =============== */
+.slider {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.426);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+
+.sliderWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sliderImg {
+    width: 80%;
+    height: 80vh;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    font-size: 24px;
+    color: lightgray;
+    cursor: pointer;
+    border-color: #244062;
+}
+
+.slideArrow {
+    margin: 60px;
+    font-size: 40px;
+    color: lightgray;
+    cursor: pointer;
 }
